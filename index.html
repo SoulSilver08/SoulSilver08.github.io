@@ -7,33 +7,216 @@
     <link rel="icon" type="image/x-icon" href="LogoTipo.png" />
 </head>
 <body>
+    <header style="width: 100%; height: 8vh; position: sticky; top: 0; left: 0; z-index: 99; background-color: darkgray">
+        <h1 style="display:inline">Angel Rosales</h1>
+        <div style="display: inline; position: absolute; right: 2%; top: 35%">
+            <div onclick="location.href='#inicio'" style="cursor: pointer; background-color: lightgray; text-align: center; width: 25%; height: 100%; display: inline"><p><b>Inicio</b></p></div>
+            <a href="#acerca">Acerca</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#portafolio">Portafolio</a>
+        </div>
+    </header>
 
-    <table style="background-color: aliceblue; border: 1px solid antiquewhite; border-radius: 1em; width: 100%">
+    <table id="inicio" style="background-color: aliceblue; border: 1px solid antiquewhite; border-radius: 1em; width: 100%; position: relative; top: 10%">
         <tr>
             <td>
                 <img style="border: 1px solid antiquewhite; border-radius: 1em; filter: drop-shadow(-10px 10px 4px gray)" src="Images/FotoPerfil.png" />
             </td>
-            <td style="text-align: right">
+            <td style="text-align: right; padding-right: 1.5%">
                 <p style="font-size: 48px"><b>Ing. Angel de Jesus Rosales Rosales</b></p>
                 <h2><b>Ingeniero en informática con especialidad en Framework .NET y Desarrollo de videojuegos con Unity.</b></h2>
                 <h2><b>Durango, Durango, Mexico</b></h2>
                 <h2><b>+52 618-220-70-00</b></h2>
-                <a href="https://www.linkedin.com/in/angel-rosales-025b51210" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/angel-rosales-025b51210" target="_blank" rel="noopener noreferrer" style="padding-right:1%">
                     <img class="linkedin" src="Icons/linkedin.svg" />
                 </a>
-                <a href="https://github.com/SoulSilver08" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/SoulSilver08" target="_blank" rel="noopener noreferrer" style="padding-right:1%">
                     <img class="github" src="Icons/github.svg" />
                 </a>
-                <a href="https://x.com/SoulSilver08" target="_blank" rel="noopener noreferrer">
+                <a href="#acerca" style="padding-right:1%">
                     <img class="x" src="Icons/twitter-x.svg" />
+                </a>
+                <a href="Documents/AngelRosales-CV.pdf" download target="_blank">
+                    <img class="pdf" src="Icons/filetype-pdf.svg" />
                 </a>
             </td>
         </tr>
     </table>
 
-    <p style="font-size: 56px; text-align: center; color: aliceblue"><b>Portafolio</b></p>
+    <div id="acerca" style="background-color:antiquewhite">
+        <p style="text-align: center; font-size: 250%"><b>Acerca de mi.</b></p>
+        <p style="font-size: 100%">Hola soy Angel, ingeniero en informatica especializado con todo lo relacionado con el Framework .Net de Microsoft.</p>
+        <p style="font-size: 100%">En 2024 me gradue del Intituo Tecnologico de Durango con un  promedio de 90.XX obteniendo asi el promedio mas alto de esa generacion. En 2025 obtuve mi cedula profesional y con ella mi titulo profesional.</p>
+        <p style="font-size: 100%">Pese a que me gradue de la carrera en 2024 llevo trabajando con .Net desde 2017 realizando proyectos personales y pricipalmente realizando experiencias interactivas mediante el motor grafico Unity.</p>
+        <p style="font-size: 100%"></p>
+    </div>
 
-    <table style="width: 100%; height: 98vh; text-align:center; border-spacing: 9px">
+    <div id="habilidades" style="background-color:antiquewhite">
+        <p style="text-align: center; font-size: 250%"><b>Habilidades.</b></p>
+        <h1 style="text-align: center">Blandas</h1>
+        <table style="width: 100%">
+            <tr>
+                <td style="text-align: center; width: 33%">
+                    <h1>Comunicacion</h1>
+                    <div class="circ" style="display: inline">
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle.svg" />
+                    </div>
+                </td>
+                <td style="text-align: center">
+                    <h1>Trabajo en equipo</h1>
+                    <div class="circ" style="display: inline; width: 33%">
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle.svg" />
+                    </div>
+                </td>
+                <td style="text-align: center; width: 34%">
+                    <h1>Organizacion</h1>
+                    <div class="circ" style="display: inline">
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center; width: 33%">
+                    <h1>Pensamiento critico</h1>
+                    <div class="circ" style="display: inline">
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                    </div>
+                </td>
+                <td style="text-align: center; width: 34%">
+                    <h1>Colaboracion</h1>
+                    <div class="circ" style="display: inline">
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-half.svg" />
+                    </div>
+                </td>
+                <td style="text-align: center; width: 33%">
+                    <h1>Adaptabilidad</h1>
+                    <div class="circ" style="display: inline">
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle.svg" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center; width: 33%">
+                    <h1>Empatia</h1>
+                    <div class="circ" style="display: inline">
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                        <img src="Icons/circle-fill.svg" />
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <h1 style="text-align: center; padding-top: 5%">Tecnicas</h1>
+        <table style="width: 100%">
+            <tr>
+                <td style="text-align: center; width: 33%">
+                    <h1>C#</h1>
+                    <div class="oct" style="display: inline">
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon.svg" />
+                    </div>
+                </td>
+                <td style="text-align: center; width: 34%">
+                    <h1>SQL</h1>
+                    <div class="oct" style="display: inline">
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-half.svg" />
+                        <img src="Icons/octagon.svg" />
+                    </div>
+                </td>
+                <td style="text-align: center; width: 33%">
+                    <h1>Office</h1>
+                    <div class="oct" style="display: inline">
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-half.svg" />
+                        <img src="Icons/octagon.svg" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center; width: 33%">
+                    <h1>Unity</h1>
+                    <div class="oct" style="display: inline">
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon.svg" />
+                    </div>
+                </td>
+                <td style="text-align: center; width: 34%">
+                    <h1>HTML</h1>
+                    <div class="oct" style="display: inline">
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon.svg" />
+                    </div>
+                </td>
+                <td style="text-align: center; width: 33%">
+                    <h1>CSS</h1>
+                    <div class="oct" style="display: inline">
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-half.svg" />
+                        <img src="Icons/octagon.svg" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center; width: 33%">
+                    <h1>Soporte Tecnico</h1>
+                    <div class="oct" style="display: inline">
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-fill.svg" />
+                        <img src="Icons/octagon-half.svg" />
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <p id="portafolio" style="font-size: 56px; text-align: center; color: aliceblue"><b>Portafolio</b></p>
+
+    <table style="width: 100%; height: 74vh; text-align:center; border-spacing: 9px">
         <tr>
             <td class="td" ; style="background-image: url('Images/NETDeveloper.png')" onclick="location.href ='D:\\Users\\souls\\Documents\\Portfolio Projects\\SoulSilver08.github.io\\NETPage.html'">
                 <h1 class="tt"><b>.Net Developer</b></h1>
@@ -46,7 +229,12 @@
 
 </body>
 </html>
+
 <style>
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         background-image: url('Images/bg.gif');
@@ -106,4 +294,21 @@
         .x:hover {
             filter: invert(52%) sepia(37%) saturate(3518%) hue-rotate(176deg) brightness(100%) contrast(91%);
         }
+
+    .pdf {
+        width: 50px;
+        cursor: pointer;
+    }
+
+        .pdf:hover {
+            filter: brightness(0) saturate(100%) invert(24%) sepia(85%) saturate(7163%) hue-rotate(356deg) brightness(93%) contrast(118%);
+        }
+
+    .circ {
+        filter: brightness(0) saturate(100%) invert(74%) sepia(54%) saturate(5558%) hue-rotate(184deg) brightness(103%) contrast(90%);
+    }
+
+    .oct {
+        filter: brightness(0) saturate(100%) invert(58%) sepia(50%) saturate(5037%) hue-rotate(244deg) brightness(99%) contrast(105%);
+    }
 </style>
