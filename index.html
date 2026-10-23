@@ -7,13 +7,13 @@
     <link rel="icon" type="image/x-icon" href="LogoTipo.png" />
 </head>
 <body>
-    <header style="width: 100%; height: 8vh; position: sticky; top: 0; left: 0; z-index: 99; background-color: darkgray">
-        <h1 style="display:inline">Angel Rosales</h1>
-        <div style="display: inline; position: absolute; right: 2%; top: 35%">
-            <div onclick="location.href='#inicio'" style="cursor: pointer; background-color: lightgray; text-align: center; width: 25%; height: 100%; display: inline"><p><b>Inicio</b></p></div>
-            <a href="#acerca">Acerca</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#portafolio">Portafolio</a>
+    <header style="width: 100%; height: 80px; position: sticky; top: 0; left: 0; z-index: 98; background-color: darkgray">
+        <h1 style="display:inline; position: relative; top: 25%">Angel Rosales</h1>
+        <div style="display: inline; position: absolute; right: 0; top: 0; background-color: red; height: 80px; width: 35%">
+            <div onclick="location.href='#inicio'" class="nav-btn"><p><b>Inicio</b></p></div>
+            <div onclick="location.href='#acerca'" class="nav-btn"><p><b>Acerca</b></p></div>
+            <div onclick="location.href='#habilidades'" class="nav-btn"><p><b>Habilidades</b></p></div>
+            <div onclick="location.href='#portafolio'" class="nav-btn"><p><b>Portafolio</b></p></div>
         </div>
     </header>
 
@@ -53,165 +53,154 @@
 
     <div id="habilidades" style="background-color:antiquewhite">
         <p style="text-align: center; font-size: 250%"><b>Habilidades.</b></p>
+
         <h1 style="text-align: center">Blandas</h1>
-        <table style="width: 100%">
-            <tr>
-                <td style="text-align: center; width: 33%">
-                    <h1>Comunicacion</h1>
-                    <div class="circ" style="display: inline">
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle.svg" />
-                    </div>
-                </td>
-                <td style="text-align: center">
-                    <h1>Trabajo en equipo</h1>
-                    <div class="circ" style="display: inline; width: 33%">
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle.svg" />
-                    </div>
-                </td>
-                <td style="text-align: center; width: 34%">
-                    <h1>Organizacion</h1>
-                    <div class="circ" style="display: inline">
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: center; width: 33%">
-                    <h1>Pensamiento critico</h1>
-                    <div class="circ" style="display: inline">
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                    </div>
-                </td>
-                <td style="text-align: center; width: 34%">
-                    <h1>Colaboracion</h1>
-                    <div class="circ" style="display: inline">
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-half.svg" />
-                    </div>
-                </td>
-                <td style="text-align: center; width: 33%">
-                    <h1>Adaptabilidad</h1>
-                    <div class="circ" style="display: inline">
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle.svg" />
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: center; width: 33%">
-                    <h1>Empatia</h1>
-                    <div class="circ" style="display: inline">
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                        <img src="Icons/circle-fill.svg" />
-                    </div>
-                </td>
-            </tr>
-        </table>
+        <div style="width: 100%; display: flex">
+            <div style="text-align: center; min-width: 33%;">
+                <h1>Comunicacion</h1>
+                <div class="circ" style="display: inline">
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle.svg" />
+                </div>
+            </div>
+            <div style="text-align: center">
+                <h1>Trabajo en equipo</h1>
+                <div class="circ" style="display: inline; min-width: 33%">
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; min-width: 34%">
+                <h1>Organizacion</h1>
+                <div class="circ" style="display: inline">
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; width: 33%">
+                <h1>Pensamiento critico</h1>
+                <div class="circ" style="display: inline">
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; width: 34%">
+                <h1>Colaboracion</h1>
+                <div class="circ" style="display: inline">
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-half.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; width: 33%">
+                <h1>Adaptabilidad</h1>
+                <div class="circ" style="display: inline">
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; width: 33%">
+                <h1>Empatia</h1>
+                <div class="circ" style="display: inline">
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                    <img src="Icons/circle-fill.svg" />
+                </div>
+            </div>
+        </div>
 
         <h1 style="text-align: center; padding-top: 5%">Tecnicas</h1>
-        <table style="width: 100%">
-            <tr>
-                <td style="text-align: center; width: 33%">
-                    <h1>C#</h1>
-                    <div class="oct" style="display: inline">
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon.svg" />
-                    </div>
-                </td>
-                <td style="text-align: center; width: 34%">
-                    <h1>SQL</h1>
-                    <div class="oct" style="display: inline">
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-half.svg" />
-                        <img src="Icons/octagon.svg" />
-                    </div>
-                </td>
-                <td style="text-align: center; width: 33%">
-                    <h1>Office</h1>
-                    <div class="oct" style="display: inline">
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-half.svg" />
-                        <img src="Icons/octagon.svg" />
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: center; width: 33%">
-                    <h1>Unity</h1>
-                    <div class="oct" style="display: inline">
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon.svg" />
-                    </div>
-                </td>
-                <td style="text-align: center; width: 34%">
-                    <h1>HTML</h1>
-                    <div class="oct" style="display: inline">
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon.svg" />
-                    </div>
-                </td>
-                <td style="text-align: center; width: 33%">
-                    <h1>CSS</h1>
-                    <div class="oct" style="display: inline">
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-half.svg" />
-                        <img src="Icons/octagon.svg" />
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: center; width: 33%">
-                    <h1>Soporte Tecnico</h1>
-                    <div class="oct" style="display: inline">
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-fill.svg" />
-                        <img src="Icons/octagon-half.svg" />
-                    </div>
-                </td>
-            </tr>
-        </table>
+        <div style="width: 100%; display: flex">
+            <div style="text-align: center; width: 33%">
+                <h1>C#</h1>
+                <div class="oct" style="display: inline">
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; width: 34%">
+                <h1>SQL</h1>
+                <div class="oct" style="display: inline">
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-half.svg" />
+                    <img src="Icons/octagon.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; width: 33%">
+                <h1>Office</h1>
+                <div class="oct" style="display: inline">
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-half.svg" />
+                    <img src="Icons/octagon.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; width: 33%">
+                <h1>Unity</h1>
+                <div class="oct" style="display: inline">
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; width: 34%">
+                <h1>HTML</h1>
+                <div class="oct" style="display: inline">
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; width: 33%">
+                <h1>CSS</h1>
+                <div class="oct" style="display: inline">
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-half.svg" />
+                    <img src="Icons/octagon.svg" />
+                </div>
+            </div>
+            <div style="text-align: center; width: 33%">
+                <h1>Soporte Tecnico</h1>
+                <div class="oct" style="display: inline">
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-fill.svg" />
+                    <img src="Icons/octagon-half.svg" />
+                </div>
+            </div>
+        </div>
     </div>
 
     <p id="portafolio" style="font-size: 56px; text-align: center; color: aliceblue"><b>Portafolio</b></p>
@@ -240,6 +229,16 @@
         background-image: url('Images/bg.gif');
         background-size: cover;
         background-position: center;
+    }
+
+    .nav-btn {
+        cursor: pointer;
+        background-color: orange;
+        text-align: center;
+        width: 24.5%;
+        height: 100%;
+        display: inline-block;
+        font-size: 1.5vw
     }
 
     .td {
